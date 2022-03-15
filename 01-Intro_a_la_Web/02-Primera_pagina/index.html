@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera pagina Web</title>
+</head>
+<body>
+    <header>
+        <!-- Nav es una barra de navegación -->
+        <nav>
+            <ul>
+                <!-- li se usa para las listas UL es para las listas no ordendas -->
+                <!-- Se puede cambiar la viñeta de la lista incluyedo type dentro de li -->
+                <li type="circle">Inicio</li>
+                <li>Contenido</li>
+                <li>Contacto</li>
+            </ul>
+            <ol>
+                <!-- Etiqueta de valor para darle un valor a la lista -->
+                <li value="10">Inicia en 10</li>
+                <li>Número 11</li>
+                <li>Número 12</li>
+            </ol>
+        </nav>
+        <!-- h1 encabezado, solo usar por única vez el resto de los encabezados los puedes usar cuantas veces quieras -->
+        <h1>Hola mundo</h1>
+    </header>
+    <!-- Section va fuera de la etiqueta header, dentro de body -->
+    <section class="Primera">
+        <!-- Lorem es un texto de prueba, no significa nada -->
+        <!-- Con alt+z se ajusta el texto al largo de la pantalla o ajuste de palabra en menú ver-->
+        <img src="./img/summer-candy-dulces-verano.jpg" alt="Dulces">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi cupiditate nobis ratione aliquam, excepturi unde accusantium! Delectus, obcaecati laboriosam laborum, cum nihil numquam molestias, nobis commodi atque soluta asperiores doloribus.</p>
+    </section>
+    <section class="Segunda">
+        <!-- Para incluir imagen desde carpeta usar ./ y seguir la dirección donde se guardó la imagen-->
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfK3-USyuD8oMvqYgiB7O2djXbtRZSCunTeA&usqp=CAU" alt="Maserati color vino">
+        <!-- Lo que está fuera de href es lo que se va a mostrar en la pantalla, y dentro del href en las comillas es a donde te va a mandar al dar click -->
+        <!-- Target "_blank" es para que abrá en una página nueva -->
+        <p>Más detalles <a href="https://www.kbb.com/maserati/ghibli/2017/" target="_blank">Aquí</a></p>
+        <button>Comprar</button>
+    </section>
+</body>
+</html>
