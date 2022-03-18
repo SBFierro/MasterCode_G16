@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+}
+.Tarjeta{
+    text-align: center;
+    width: 120%;
+    height: 50%;
+    padding: 0%;
+    border-radius: 15px;
+    box-shadow: 3px 3px black;
+}
+img{
+    width: 200px;
+}
+.Info{
+    display: inline-block;
+    width: 350px;
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hurricane&display=swap');
+
+body{
+    background-color: burlywood;
+}
+header{
+    background-color: chartreuse;
+}
+.blanco p{
+    font-family: Helvetica;
+    font-size: 26px;
+}
+section{
+    border: purple 10px dashed;
+    background-color: cadetblue;
+    width: 100%;
+}
+.colores{
+    border: blue solid 8px;
+    border-top-color: cornflowerblue;
+    border-right-color: coral;
+    border-bottom-color: blueviolet;
+    width: 50%;
+}
+p{
+    font-family: 'Dancing Script', cursive;
+}
+.texto{
+    font-family: Georgia;
+    font-size: 30px;
+}
