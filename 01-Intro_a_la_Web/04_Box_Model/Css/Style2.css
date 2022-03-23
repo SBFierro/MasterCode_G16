@@ -1,0 +1,21 @@
+body{
+    /* font-size: 18px; Minimo las paginas web deberian tener 16px minimo, sugerido 18px */
+    font-size: 18px;
+    margin: 0%;
+    padding: 0%;
+}
+header,main,footer{
+    border: 1px #80cbc4 solid;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    padding: 20px 10px 5px;
+}
+h1,h2,h3{
+    /* display: inline; */
+    /* rem es la multiplicación del font size primario */
+    font-size: 1.5rem; 
+}
+nav a{
+    display: block;
+}
