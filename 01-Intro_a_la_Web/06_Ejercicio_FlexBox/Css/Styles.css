@@ -1,0 +1,21 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #ff4081;
+    height: 10vh;
+    width: 100%;
+}
+aside{
+    background-color: #ff80ab;
+    height: 80vh;
+    width: 20%;
+}
+footer{
+    background-color: #ff4081;
+    height: 10vh;
+    width: 100%;   
+}

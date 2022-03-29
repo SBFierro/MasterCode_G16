@@ -1,0 +1,31 @@
+body{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+header{
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;  
+    align-content: space-between;
+    height: 10vh;
+    width: 100%;
+}
+header p{
+    font-size: 1rem;
+    margin: 15px;
+}
+header img{
+    height: 40%;
+    margin-left: 15px;
+}
+main{
+    background-color: #ffffff;
+    height: 70vh;
+    width: 100%;
+}
+footer{
+    background-color: #ffffff;
+    height: 15vh;
+    width: 100%;
+}

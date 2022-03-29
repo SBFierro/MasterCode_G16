@@ -1,0 +1,9 @@
+body{
+    background-color: #f06292;
+}
+
+@media only screen and (max-widht: 700px){
+    body{
+        background-color: #7e57c2;
+    }
+}
