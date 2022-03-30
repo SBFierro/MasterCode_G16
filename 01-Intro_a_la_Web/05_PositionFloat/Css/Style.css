@@ -1,50 +1,52 @@
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 18px;
     margin: 0;
     padding: 0;
 }
-header,footer{
-    background-color: #26a69a;
+header, footer{
+    background-color: #42a5f5;
     height: 10vh;
     width: 100%;
 }
 aside{
-    background-color: darkorchid;
+    background-color: #90caf9;
     float: left;
     height: 80vh;
-    width: 15%; 
+    width: 15%;
 }
 main{
-    background-color: #fff59d;
+    background-color: #e3f2fd;
     float: right;
     height: 80vh;
     width: 85%;
 }
 footer{
+    position: fixed;
     bottom: 0;
     text-align: center;
 }
 h1{
-    color: #b2ebf2;
+    color: #000000;
     font-size: 1.5rem;
     margin: 0 0 0 5px;
 }
 aside a{
     border: 1px #000000 solid;
-    color: #b2ebf2;
+    color: #000000;
     display: block;
     margin: 5px 0;
+    text-decoration: none; 
     text-align: center;
-    text-decoration: none;
 }
 aside a:hover{
-    background-color: #d1c4e9;
+    background-color: #c5cae9;
     border-radius: 5px;
 }
 p{
-    margin: 0;
+    display: inline-block;
     font-size: 0.8rem;
+    margin: 0;
     text-align: center;
 }
 footer i{
@@ -54,5 +56,5 @@ footer a{
     color: #000000;
 }
 footer a:hover{
-    color: chartreuse;
+    color: #ffffff;
 }
